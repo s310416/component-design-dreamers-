@@ -1,1 +1,91 @@
+html,
+body,
+main {
+	margin: 0;
+	padding: 0;
+}
+main {
+  background-color: #e6f0ff;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: auto;
+}
+body{
+  margin-top: 20px;
+}
+section{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+h1{
+  font-family:serif;
+  color: black;
+  font-size: 40px;
+}
+h2{
+  font-family: Worldly Regular,Open Sans,Arial,sans-serif;
+  color: black;
+  font-size: 30px;
+}
+h2,h3,h4,h5,h6{
+  font-family: Worldly Regular,Open Sans,Arial,sans-serif;
+  font-weight: 400px;
+  color: #000D7D
 
+}
+p{
+  font-size: 20px;
+}
+strong{
+  text-decoration:underline;
+}
+a {
+	color: blue;
+}
+
+a:visited {
+  color: red;
+}
+em{
+  color: #ff1a1a;
+}
+ul li{
+  list-style: square;
+  padding: 5px;
+}
+li ul li{
+  list-style: disc;
+}
+.colour {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 1px solid black;
+}
+.colour--primary {
+	background: linear-gradient(to right, #009688, #4caf50);;
+}
+
+.colour--secondary {
+	background: linear-gradient(to right,  #b8b894, #ccccb3);;
+}
+
+.colour--dark{
+	background:  #00004d;
+}
+
+.colour--light {
+	background: #f9f9ff;
+}
+
+.colour--highlight {
+	background: #ff4d4d;
+}
+@media (min-width: 600px) {
+	main {
+		width: 600px;
+		margin: auto;
+	}
+}
